@@ -39,10 +39,10 @@ li a {
 
 .right-nav {
   display: flex;
-  flex-direction: column; /* stack children vertically */
-  align-items: flex-end;   /* align to the right, optional */
+  flex-direction: column; 
+  align-items: flex-end;   
   gap: 4px; 
-  height: 100%;            /* fills the nav bar vertically */
+  height: 100%;           
   padding-right: 10px; 
   /* border: solid 2px black; */
 }
@@ -68,7 +68,7 @@ h5 a {
 }
 
 h5 a:last-child {
-  border-right: none;
+  border-right: none; /* This doesn't seem to be working */
 }
 
 .action {
@@ -91,7 +91,7 @@ h5 a:last-child {
 
 .selections {
   display: flex;
-  gap: 20px; /* adds space between the fields */
+  gap: 20px; 
 }
 
 .selections div {
