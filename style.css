@@ -1,0 +1,128 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 80px;
+  padding: 0 20px;
+  background-color: rgba(57, 52, 52, 0.877);
+  color: antiquewhite;
+  /* border: solid 2px black; */
+  text-transform: uppercase;
+}
+
+.logo {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  border: solid 2px black;
+}
+
+ul {
+  display: flex; 
+  gap: 30px;
+  margin: 0; 
+  padding: 0;
+}
+
+li {
+  display: inline; 
+  justify-content: center;
+}
+
+li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+/* right navigation */
+
+.right-nav {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  align-items: flex-end;   /* align to the right, optional */
+  gap: 4px; 
+  height: 100%;            /* fills the nav bar vertically */
+  padding-right: 10px; 
+  /* border: solid 2px black; */
+}
+
+.language {
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+h5 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+  font-size: 0.8rem;
+
+}
+
+h5 a {
+  text-decoration: none;
+  color: antiquewhite;
+  border-right: 2px solid antiquewhite;
+  padding-right: 8px;
+}
+
+h5 a:last-child {
+  border-right: none;
+}
+
+.action {
+  display: flex;
+  gap: 12px; 
+}
+
+/* below navbar */
+
+.forms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 80px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  background-color: rgb(179, 184, 230);
+}
+
+.selections {
+  display: flex;
+  gap: 20px; /* adds space between the fields */
+}
+
+.selections div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.advance {
+  display: flex;
+  gap: 10px;
+
+}
+
+.update {
+  border: solid black 2px;
+  border-radius: 20px;
+  padding: 5px;
+  align-content: center;
+}
+
+.advanced-search {
+  margin-top: 50px;
+}
+
+
+
+
